@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'kara';
+    src: url('fonts/SGKara-Regular.ttf');
+}
+@font-face {
+    font-family: 'byakan';
+    src: url('fonts/BYekan.ttf');
+}
+
+:root{
+    --color-bg: #BEC8E2;
+    --color-sections: #E3EDFE;
+    --color-box-white: #FFFFFF;
+    --color-box-blue: #92C5FF;
+    --color-titelbox:#B5D8FF;
+    --color-text-dark:#242424;
+    --color-text-blue:#81BBFF;
+    --color-text-gray:#757575;
+    --color-text-darkblue:#264A74;
+    --color-box-yellow :#EBEB70;
+    
+
+    --border-radius-sections: 38px;
+    --border-radius-box1: 29px;
+    --border-radius-box2: 27px;
+    --border-radius-titelbox: 10px 35px 0px 35px;
+
+}
+
+body{
+    background-color: var(--color-bg);
+}
+#patternBL{
+    position: fixed;
+    left: -20%;
+    bottom: -10%;
+    width: 55%;
+    height: 55%;
+}
+#patternTR{
+    position: fixed;
+    top: -10%;
+    right: -20%;
+    width: 55%;
+    height: 55%;
+}
+.logo{
+    width: 75vh;
+    position: absolute;
+    top: 10vh;
+    left:30vh;
+}
+h1{
+    color: white;
+    font-family: 'kara';
+    font-size: 2.5vw;
+    font-weight: 300;
+    position: absolute;
+    top: 6%;
+    right: 16%;
+}
+h1 .tabaTxt{
+    color: #497DB9;
+    font-size: 3vw;
+}
+.tabcontainer ul{
+    overflow:hidden;
+      /* Auto layout */
+  height: 12vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 1%;
+  margin-right: auto;
+  width: 100%;
+  z-index: 90;
+  list-style: none;  
+}
+.tabcontainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    width: 20%;
+    height: 10vh;
+    /* background-color: #242424; */
+    border-radius: 0px;
+    position:absolute;
+    top: 40%;
+    right: 16%;
+    z-index: 1;
+    gap: -2%;
+    align-items: flex-start;
+}
+.tabbtn{
+    background-color: #DBE0F0;   
+    width: 110%; 
+    padding: 5px;
+    margin-top: 0.2rem;
+    color: #5990D1;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 1vw 1vw 0vw 0vw;
+    font-family: 'kara';
+    font-size: 1vw;
+}
+.container{
+    position: absolute;
+    top: 46%;
+    right: 16%;
+    height: 28%;
+    width: 22%;
+    background-color: #E4E8F5;
+    border-radius: 2vw;
+    z-index: 2;
+}
